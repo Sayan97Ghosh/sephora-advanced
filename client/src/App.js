@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Landingpage from './Pages/Landingpage/Landingpage';
 
 function App() {
   return (
     <div className="App">
-      <h1>All Routes Imported Here</h1>
+      <Navbar/>
+      <Landingpage/>
     </div>
   );
 }
