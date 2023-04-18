@@ -5,17 +5,19 @@ import Banner from '../../Components/Banner/Banner';
 import { Link } from 'react-router-dom';
 import { BsPlayCircleFill } from "react-icons/bs";
 import"./Landingpage.css";
+import Samefooter from '../../Components/Samefooter/Samefooter';
+import BacktoTop from '../../Components/BackTotop/BacktoTop';
 function Landingpage() {
   return (
-   
-      <Box m={"auto"}  h="auto" w="90%" border="2px" color="black">
+     <>
+      <Box m={"auto"}  h="auto" w="90%" >
           <Box>
             <Carosoul/>
           </Box>
          <HStack mb={15} gap={2}>
             {/* number 1 */}
-            <Box position={"relative"} h="400px" w="40%" border="2px" color="black">
-             <Image p={2} h="90%" border="2px" color="blue" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/03-april-2021/5APR21_SC_BRANDSTORE_VIDEO.jpg'/> 
+            <Box position={"relative"} h="400px" w="40%" >
+             <Image p={2} h="90%"  w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/03-april-2021/5APR21_SC_BRANDSTORE_VIDEO.jpg'/> 
              <div class="icon">
                 {/* <a href="#" class="icon" title="User Profile"> */}
                    <BsPlayCircleFill color='white' size={80}/>
@@ -32,10 +34,10 @@ function Landingpage() {
 
                 <Heading fontWeight="medium" size={"md"}>Skincare savvy with Sephora Collection</Heading>
             </Box>
-            <Box h={"100%"} width={"65%"} border="2px" color="black">
+            <Box h={"100%"} width={"65%"} >
               {/* this is the second box */}
               <Heading fontWeight="medium" size={"xl"}>Best Seller</Heading>
-              <Box p={9} border="2px" color="red" h="auto" width="100%">
+              <Box p={9} h="auto" width="100%">
                  <Banner/>
               </Box>
              
@@ -52,8 +54,8 @@ function Landingpage() {
 
          <HStack mb={15} gap={5}>
             {/* number 2 */}
-            <Box  position={"relative"} h="400px" w="38%" border="2px" color="black">
-             <Image p={5} h="90%" border="2px" color="blue" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Makeup.jpg'/> 
+            <Box  position={"relative"} h="400px" w="38%">
+             <Image p={5} h="90%" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Makeup.jpg'/> 
              <div class="icon">
                 {/* <a href="#" class="icon" title="User Profile"> */}
                    <BsPlayCircleFill color='white' size={80}/>
@@ -62,10 +64,10 @@ function Landingpage() {
 
                 <Heading fontWeight="medium" size={"md"}>Skincare savvy with Sephora Collection</Heading>
             </Box>
-            <Box h={"100%"} width={"65%"} border="2px" color="black">
+            <Box h={"100%"} width={"65%"} >
               {/* this is the second box */}
               <Heading fontWeight="medium" size={"xl"}>Best Seller</Heading>
-              <Box p={9} border="2px" color="red" h="98%" width="100%">
+              <Box p={9}  h="98%" width="100%">
               <Banner/>
               </Box>
              
@@ -74,8 +76,8 @@ function Landingpage() {
          </HStack>
          <HStack mb={15} gap={5}>
             {/* number 3 */}
-            <Box position={"relative"} h="400px" w="38%" border="2px" color="black">
-             <Image p={5} h="90%" border="2px" color="blue" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Skincare.jpg'/>   
+            <Box position={"relative"} h="400px" w="38%">
+             <Image p={5} h="90%" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Skincare.jpg'/>   
              <div class="icon">
                 {/* <a href="#" class="icon" title="User Profile"> */}
                    <BsPlayCircleFill color='white' size={80}/>
@@ -83,10 +85,10 @@ function Landingpage() {
                 </div> 
                 <Heading fontWeight="medium" size={"md"}>Skincare savvy with Sephora Collection</Heading>
             </Box>
-            <Box h={"100%"} width={"65%"} border="2px" color="black">
+            <Box h={"100%"} width={"65%"}>
               {/* this is the second box */}
               <Heading fontWeight="medium" size={"xl"}>Best Seller</Heading>
-              <Box p={9} border="2px" color="red" h="98%" width="100%">
+              <Box p={9}  h="98%" width="100%">
               <Banner/>
               </Box>
              
@@ -94,8 +96,8 @@ function Landingpage() {
          </HStack>
          <HStack mb={15} gap={5}>
             {/* number 4 */}
-            <Box position={"relative"} h="400px" w="38%" border="2px" color="black">
-             <Image p={5} h="90%" border="2px" color="blue" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Accessories.jpg'/>   
+            <Box position={"relative"} h="400px" w="38%" >
+             <Image p={5} h="90%"  w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Accessories.jpg'/>   
              <div class="icon">
                 {/* <a href="#" class="icon" title="User Profile"> */}
                    <BsPlayCircleFill color='white' size={80}/>
@@ -103,10 +105,10 @@ function Landingpage() {
                 </div> 
                 <Heading fontWeight="medium" size={"md"}>Skincare savvy with Sephora Collection</Heading>
             </Box>
-            <Box h={"100%"} width={"65%"} border="2px" color="black">
+            <Box h={"100%"} width={"65%"} >
               {/* this is the second box */}
               <Heading fontWeight="medium" size={"xl"}>Best Seller</Heading>
-              <Box p={9} border="2px" color="red" h="98%" width="100%">
+              <Box p={9}  h="98%" width="100%">
               <Banner/>
               </Box>
              
@@ -114,8 +116,8 @@ function Landingpage() {
          </HStack>
          <HStack mb={15} gap={5}>
             {/* number 5 */}
-            <Box position={"relative"} h="400px" w="38%" border="2px" color="black">
-             <Image p={5} h="90%" border="2px" color="blue" w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Haircare.jpg'/>   
+            <Box position={"relative"} h="400px" w="38%">
+             <Image p={5} h="90%"  w="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/31-may-2022/se/Haircare.jpg'/>   
              <div class="icon">
                 {/* <a href="#" class="icon" title="User Profile"> */}
                    <BsPlayCircleFill color='white' size={80}/>
@@ -123,10 +125,10 @@ function Landingpage() {
                 </div> 
                 <Heading fontWeight="medium" size={"md"}>Skincare savvy with Sephora Collection</Heading>
             </Box>
-            <Box h={"100%"} width={"65%"} border="2px" color="black">
+            <Box h={"100%"} width={"65%"}>
               {/* this is the second box */}
               <Heading fontWeight="medium" size={"xl"}>Best Seller</Heading>
-              <Box p={9} border="2px" color="red" h="98%" width="100%">
+              <Box p={9} h="98%" width="100%">
               <Banner/>
               </Box>
              
@@ -136,10 +138,19 @@ function Landingpage() {
          <Box  mt={38} w={"100%"} h="250px">
             {/* This is for image */}
             <Link to="/gin">
-            <Image  src='https://logan.nnnow.com/content/dam/nnnow-project/30-march-2021/sc-refresh/31MAR21_SC_BRANDSTORE_ABOUTTHEBRAND_DESK.jpg'/>
+            <Image h="300px" width="100%" src='https://logan.nnnow.com/content/dam/nnnow-project/30-march-2021/sc-refresh/31MAR21_SC_BRANDSTORE_ABOUTTHEBRAND_DESK.jpg'/>
             </Link>
          </Box>
+         {/* samefooter */}
       </Box>
+   
+         {/* this is for back to top */}
+        
+         {/* this is for footer */}
+         <Samefooter/>
+     
+        
+      </>
    
   )
 }
